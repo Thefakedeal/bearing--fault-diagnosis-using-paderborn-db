@@ -1,0 +1,4 @@
+dataset/*
+
+# save the folder structure
+!dataset/.gitkeep
