@@ -17,7 +17,6 @@ class SignalProcessor:
         rms = np.sqrt(np.mean(s**2))
         peak = np.max(np.abs(s))
         
-        # We use pandas or scipy for kurtosis/skewness for consistency
         return {
             'rms':          rms,
             'kurtosis':     kurtosis(s),
