@@ -2,3 +2,7 @@ dataset/*
 
 # save the folder structure
 !dataset/.gitkeep
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
