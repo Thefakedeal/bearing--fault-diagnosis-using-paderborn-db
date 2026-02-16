@@ -3,7 +3,7 @@ import pandas as pd
 from scipy.stats import kurtosis, skew
 
 class SignalProcessor:
-    def __init__(self, signal, fs=64000):
+    def __init__(self, signal=np.array([]), fs=64000):
         """
         :param signal: 1D numpy array (the raw data)
         :param fs: Sampling frequency (PU dataset vibration is 64kHz)
