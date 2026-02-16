@@ -6,3 +6,13 @@ dataset/*
 # Ignore Python bytecode
 *.pyc
 __pycache__/
+
+# Ignore all files in exports and its subfolders
+exports/*
+!exports/models
+exports/models/*
+
+
+# But keep the folders themselves
+!exports/.gitkeep
+!exports/models/.gitkeep
