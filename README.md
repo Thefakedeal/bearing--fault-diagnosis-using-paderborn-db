@@ -33,6 +33,14 @@ This project is inspired by and aligned with recent research in vibration-based 
    Published in *Sensors (MDPI)* — Highlights embedded deployment considerations and delay-sensitive classification frameworks.  
    https://www.mdpi.com/1424-8220/24/9/2833
 
+7. **Deep Convolutional Neural Networks for Rotating Machinery Fault Diagnosis**  
+   *Preprint on arXiv* — Explores CNN-based approaches for automatic feature extraction from vibration signals and end-to-end fault classification in rotating machinery.  
+   https://arxiv.org/abs/1909.04939  
+
+8. **Lightweight Deep Learning Framework for Intelligent Fault Diagnosis Under Resource Constraints**  
+   *Published in Reliability Engineering & System Safety (Elsevier)* — Proposes computationally efficient deep models suitable for real-time and industrial fault diagnosis with limited hardware resources.  
+   https://www.sciencedirect.com/science/article/abs/pii/S0141938222000622  
+
 ---
 
 ### Related Open-Source Implementation
