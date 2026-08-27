@@ -1,14 +1,16 @@
 ## Project Structure & Individual Notebooks
 
-Machine learning and quantum-enhanced approaches for bearing fault diagnosis using the Paderborn University dataset. This capstone project explores multiple methodological approaches developed collaboratively by our team.
+Machine learning and quantum-enhanced approaches for bearing fault diagnosis using the Paderborn University dataset. 
+
+This capstone project explores multiple methodological approaches developed collaboratively by our team.
 
 Below are the direct links to each team member's Jupyter notebook containing their specific implementation, experiments, and results:
 
-* **Ellen Mickelly** – *Hybrid 1D CNN-Quantum*
+* **Ellen Mickelly de Jesus Santana** – *Hybrid 1D CNN-Quantum*
 * * 📄 [CNN Quantum Model](./notebooks/cnn_quantum_model.ipynb)
   * 📄 [CNN Quantum IBM Testing](./notebooks/cnn_quantum_ibm_testing.ipynb)
 
-* **Maria Suarez** – *1D Convolutional Autoencoder*
+* **Maria Jose Suarez Pena** – *1D Convolutional Autoencoder*
 * * 📄 [1DCAE Bearing Fault Diagnosis](./notebooks/1DCAE_BearingFaultDiagnosis.ipynb)
 
 * **Samir Shrestha** – *Spectrogram-Based Transfer Learning with MobileNet*
