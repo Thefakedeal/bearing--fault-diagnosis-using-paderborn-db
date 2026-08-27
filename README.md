@@ -1,60 +1,28 @@
-# bearing--fault-diagnosis-using-paderborn-db
-Machine learning–based bearing fault diagnosis using the Paderborn dataset.
+## Project Structure & Individual Notebooks
 
-## 📚 Related Work & References
+Machine learning and quantum-enhanced approaches for bearing fault diagnosis using the Paderborn University dataset. This capstone project explores multiple methodological approaches developed collaboratively by our team.
 
-This project is inspired by and aligned with recent research in vibration-based bearing fault diagnosis, deep learning for rotating machinery, and low-latency industrial condition monitoring systems.
+Below are the direct links to each team member's Jupyter notebook containing their specific implementation, experiments, and results:
 
----
+* **Ellen Mickelly** – *Hybrid 1D CNN-Quantum*
+* * 📄 [CNN Quantum Model](./notebooks/cnn_quantum_model.ipynb)
+  * 📄 [CNN Quantum IBM Testing](./notebooks/cnn_quantum_ibm_testing.ipynb)
 
-### Journal Articles & Conference Papers
+* **Maria Suarez** – *1D Convolutional Autoencoder*
+* * 📄 [1DCAE Bearing Fault Diagnosis](./notebooks/1DCAE_BearingFaultDiagnosis.ipynb)
 
-1. **Machine-Vision-Based Fault Diagnosis for Rolling Bearings**  
-   Published in *Robotics (MDPI)* — Presents a machine-vision and deep learning approach for rolling bearing fault classification with strong experimental validation.  
-   https://www.mdpi.com/2076-0825/14/3/152
+* **Samir Shrestha** – *Spectrogram-Based Transfer Learning with MobileNet*
+* * 📄 [Signal to Line Image](./notebooks/signal_to_line_img.ipynb)
+* * 📄 [Signal to Spectrum](./notebooks/signal_to_spectrum.ipynb)
+* * 📄 [Pretrained CNN Model](./notebooks/pretrained_cnn_model.ipynb)
+* * 📄 [Pretrained CNN Model (Direct)](./notebooks/pretrained_cnn_model_direct.ipynb)
 
-2. **Deep Learning-Based Fault Diagnosis of Rotating Machinery**  
-   Published in *IEEE* — Explores CNN and LSTM architectures for vibration signal classification in rotating machinery fault detection.  
-   https://ieeexplore.ieee.org/abstract/document/9855510
-
-3. **Time–Frequency Representation-Based Bearing Fault Diagnosis**  
-   Preprint on *arXiv* — Investigates transforming vibration signals into time-frequency representations (e.g., spectrograms) for CNN-based classification.  
-   https://arxiv.org/abs/2212.14550
-
-4. **Real-Time Machine Fault Diagnosis Using Vibration Measurements**  
-   Published on *ScienceDirect* — Focuses on real-time and low-latency vibration-based fault detection strategies for industrial systems.  
-   https://www.sciencedirect.com/science/article/pii/S2665963823000404
-
-5. **Efficient Real-Time Deep Learning for Fault Diagnosis**  
-   Preprint on *arXiv* — Discusses optimization techniques for streaming inference and computational efficiency in condition monitoring.  
-   https://arxiv.org/abs/2208.06051
-
-6. **Low-Delay Vibration-Based Fault Diagnosis for Embedded Systems**  
-   Published in *Sensors (MDPI)* — Highlights embedded deployment considerations and delay-sensitive classification frameworks.  
-   https://www.mdpi.com/1424-8220/24/9/2833
-
-7. **Deep Convolutional Neural Networks for Rotating Machinery Fault Diagnosis**  
-   *Preprint on arXiv* — Explores CNN-based approaches for automatic feature extraction from vibration signals and end-to-end fault classification in rotating machinery.  
-   https://arxiv.org/abs/1909.04939  
-
-8. **Lightweight Deep Learning Framework for Intelligent Fault Diagnosis Under Resource Constraints**  
-   *Published in Reliability Engineering & System Safety (Elsevier)* — Proposes computationally efficient deep models suitable for real-time and industrial fault diagnosis with limited hardware resources.  
-   https://www.sciencedirect.com/science/article/abs/pii/S0141938222000622  
+* **Sampan Singh** – *Conv-BiLSTM*
+* * 📄 [Conv-BiLSTM Notebook](./notebooks/Conv_BiLSTM.ipynb)
 
 ---
 
-### Related Open-Source Implementation
+* **Dataset:** [Paderborn University Bearing Dataset](https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter/data-sets-and-download#data-sets-and-download)
 
-- **Vibration-Based Fault Diagnosis with Low Delay**  
-  https://github.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay
+* **Research Outputs:** This repository serves as the practical implementation for four distinct research directions developed during our capstone project. Detailed manuscripts are currently in the process of academic submission.
 
----
-
-### Relevance to This Project
-
-This repository builds upon the methodologies presented in the above works by:
-
-- Using vibration signals from the Paderborn Bearing Dataset  
-- Implementing classical and/or deep learning models for fault classification  
-- Exploring time-domain and frequency-domain feature extraction  
-- Aiming for reproducible and research-aligned implementation  
